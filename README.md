@@ -11,7 +11,7 @@ See docs folder. And see examples in example folder.
 
 Usage
 ------
-To you execute your java application, you must set;
+To execute your java application, you must set;
 
 * classpath to the following two libraries;
     * libedax4j.jar
