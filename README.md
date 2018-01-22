@@ -3,6 +3,8 @@ libedax4j
 
 libedax4j is a Java wrapper for libedax. To use libedax4j, you need libedax (c-library) together.
 
+https://github.com/lavox/edax-reversi/tree/libedax
+
 API Documents
 --------------
 See docs folder. And see examples in example folder.
@@ -25,5 +27,5 @@ java -Djna.library.path=C:¥libedax¥bin Example1
 OSX
 ```sh
 export CLASSPATH=.:~/libedax/lib/libedax4j.jar:~/libedax/lib/jna-4.5.1.jar
-java -Djna.library.path=/Users/atsushi/git/edax-reversi/bin Example1
+java -Djna.library.path=~/libedax/bin Example1
 ```
