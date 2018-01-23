@@ -51,15 +51,15 @@ HOME_DIRECTORY
 +-- libedax/
     +-- bin/
     |   +-- libedax.dylib
-    +-- lib¥
+    +-- lib/
     |   +-- libedax4j.jar
     |   +-- jna-4.5.1.jar
-    +-- data¥
+    +-- data/
     |   +-- book.dat
     |   +-- eval.dat
     +-- Example1.java
 ```
-If directory structure is as above, execute the following commands in `C:¥libedax` directory.
+If directory structure is as above, execute the following commands in `HOME_DIRECTORY/libedax` directory.
 ```sh
 export CLASSPATH=.:~/libedax/lib/libedax4j.jar:~/libedax/lib/jna-4.5.1.jar
 javac Example1.java
